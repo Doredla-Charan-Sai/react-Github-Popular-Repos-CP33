@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.repo-list-item {
+  width: 30%;
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.avatar {
+  height: 80px;
+  width: 80px;
+}
+.img-count-cont {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  margin-right: 5px;
+}
+.name {
+  color: #e73959;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
